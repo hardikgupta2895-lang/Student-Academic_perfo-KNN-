@@ -112,7 +112,7 @@ hr { border-color: var(--border) !important; }
 # ─── Load Assets ────────────────────────────────────────────────────────────
 @st.cache_resource
 def load_model():
-    return joblib.load("Student_performance(KNN).pkl")
+    return joblib.load("Student_Performance(KNN).pkl")
 
 @st.cache_data
 def load_data():
